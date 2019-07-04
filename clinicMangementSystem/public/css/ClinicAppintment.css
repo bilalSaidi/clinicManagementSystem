@@ -1,0 +1,114 @@
+body{
+    background-color: #f4f4f5;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #5f5e5e;
+    line-height: 25px;
+    letter-spacing: .4px;
+}
+
+/* Start Nav */
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+
+header i{
+    color: #fff;
+    font-size: 40px;
+}
+ 
+
+
+
+
+header .option-tools  img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: -48px;
+    border: 2px solid #2a94c4;
+
+}
+
+.avatarDoctor{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 9px #e0e0e0, inset 0 0 2px hsla(0,0%,84%,.75);
+    box-shadow: 0 1px 9px #e0e0e0, inset 0 0 2px hsla(0,0%,84%,.75);
+    border-radius: 50%;
+}
+
+.navbar-default .navbar-nav>li>a.info-admin{
+	padding-top:11px;
+}
+/* End Nav */
+
+
+/* Start Main Content */
+
+.main-content{
+    
+    
+}
+
+
+/* End Main Contnet */
+
+
+/* Start Full Calandar */
+#calendar{
+    background-color: #FFFFFF;
+    padding: 1.5em;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    max-width: 100%;
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.fc-button {
+    font-family: 'Roboto', sans-serif;
+    border-color: #337ab7;
+    color: #337ab7;
+}
+.fc-button{
+    outline: none;
+    
+}
+.fc-toolbar{
+    white-space: nowrap;
+    padding: 15px 10px 0px;
+}
+.fc th {
+    font-family: 'Roboto', sans-serif;
+    background: #337ab7 !important;
+    color: #FFF;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+
+.fc-ltr .fc-basic-view .fc-day-number{
+    font-size: 15px;
+    margin: 2px;
+    min-width: 19px;
+    padding: 6px;
+   
+    width: 30px;
+    height: 30px;
+}
+
+.fc-slats tr  , .fc-minor {
+    height: 40px;
+}

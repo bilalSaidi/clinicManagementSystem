@@ -1,0 +1,197 @@
+body{
+    background-color: #f4f4f5;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #5f5e5e;
+    line-height: 25px;
+    letter-spacing: .4px;
+}
+
+header{
+    background-color: #3065b5;
+    background-image: radial-gradient(circle at 50% top,rgba(3,146,206,0.6) 0%,rgba(3,146,206,0) 75%),radial-gradient(circle at right top,#3065b5 0%,rgba(48,101,181,0) 57%);
+    color: #fff;
+
+    padding:  20px 30px ;
+    
+}
+
+header i{
+    color: #fff;
+    font-size: 40px;
+}
+ 
+
+
+
+
+header .option-tools  img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: -48px;
+    border: 2px solid #2a94c4;
+
+}
+
+.info-profile{
+    position: relative;
+    color: #f1f1f1;
+}
+
+.info-profile a {
+    color: #333;
+    font-size: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+
+.info-profile a:hover{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+/* Start Nav */
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>li>a{
+    padding-top: 16px;
+}
+.navbar-default .navbar-nav>li>a.info-admin{
+	padding-top:11px;
+}
+
+
+/* End Nav */
+
+/* Start main-content */
+.main-content{
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: -14px 14px 15px -9px rgba(0,0,0,.1);
+    -webkit-box-shadow: -14px 14px 15px -9px rgba(0,0,0,.1);
+    -moz-box-shadow: -14px 14px 15px -9px rgba(0,0,0,.1);
+}
+
+/* End main-content*/
+
+/* Start Header */
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* End Header  */
+
+
+
+/* Start Setting */
+.setting-site input{
+    margin-bottom: 15px;
+}
+
+/* End Setting */
+.navbar.navbar-default{
+    
+    color: #f1f1f1;
+    border: none;
+}
+img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+img,h6{
+    display: inline-block;
+}
+.avatarDoctor{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 9px #e0e0e0, inset 0 0 2px hsla(0,0%,84%,.75);
+    box-shadow: 0 1px 9px #e0e0e0, inset 0 0 2px hsla(0,0%,84%,.75);
+    border-radius: 50%;
+}
+.navbar.navbar-default h6{
+    color: #f1f1f1;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover{
+  background-color: transparent;
+}
+
+.drop-menu-top-nav{
+    position: absolute;
+    top: 67px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.drop-menu-top-nav  li {
+  text-transform: capitalize;
+    display: inline-block;
+    
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    padding: 6px 0;
+}
+
+.drop-menu-top-nav  li:hover{
+      color: #2e2f37;
+    text-decoration: none;
+    background-color: #f8f9fc;
+}
+
+/* Start Table */
+
+table.dataTable>tbody>tr.child ul.dtr-details>li{
+    white-space: pre-wrap;
+    
+}
+table{
+	
+	background-color: white;
+    padding: 1.5em;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    max-width: 100%;
+    text-align:center;
+    margin-top: 15px;
+
+}
+table .Activate{
+	display: block;
+	width: 55%;
+	margin: auto;
+	margin-top: 2px;
+}
+table th{
+    text-align: center
+}
+
+a.btn.option{
+    border-radius:50%; 
+}
+
+
+/* Start Summer Note */
+.note-editor.note-frame .note-editing-area .note-editable{
+    height: 200px;
+}

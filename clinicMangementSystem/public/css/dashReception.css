@@ -1,0 +1,75 @@
+body{
+    background-color: #f4f4f5;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #5f5e5e;
+    line-height: 25px;
+    letter-spacing: .4px;
+}
+
+
+/* Start Main Content */
+
+.main-content{
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: -14px 14px 15px -9px rgba(0,0,0,.1);
+    -webkit-box-shadow: -14px 14px 15px -9px rgba(0,0,0,.1);
+    -moz-box-shadow: -14px 14px 15px -9px rgba(0,0,0,.1);
+}
+
+
+/* End Main Contnet */
+
+/* Start Nav */
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+
+/* End Nav */
+
+
+/* Start Page Patient */
+.listPatients{
+    user-select: none;
+}
+.addnewPatient{
+    margin: 20px 0;
+}
+table.dataTable>tbody>tr.child ul.dtr-details>li{
+    white-space: pre-wrap;
+    
+}
+table{
+	
+	background-color: white;
+    padding: 1.5em;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    max-width: 100%;
+    text-align:center;
+    margin-top: 15px;
+
+}
+table .Activate{
+	display: block;
+	width: 55%;
+	margin: auto;
+	margin-top: 2px;
+}
+table th{
+    text-align: center
+}
+
+a.btn.option{
+    border-radius:50%; 
+}
+
+/* End Page Patient  */
+

@@ -1,0 +1,41 @@
+
+body{
+    background-color: #f5f8fa;
+}
+
+.form-title{
+    
+    font-size: 30px;
+    color: #555555;
+    line-height: 1.2;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+}
+.container-login{
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #ebebeb;
+}
+.warpper-login{
+    width: 560px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Start */
+
